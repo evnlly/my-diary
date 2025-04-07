@@ -16,13 +16,13 @@
 ## Как запустить проект
 
 ### 1. Создайте виртуальное окружение
-python -m venv .venv
+`python -m venv .venv`
 ### 2. Активируйте окружение
-.venv\Scripts\activate
+`.venv\Scripts\activate`
 ### 3. Установите зависимости
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 ### 4. Примените миграции
-python manage.py migrate
+`python manage.py migrate`
 ### 5. Запустите сервер
 Перейдите в папку проекта (если необходимо) и запустите:
-python manage.py runserver
+`python manage.py runserver`
